@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
+#include "WispsPickup.h"
 #include "SCharacter.h"
 
 // Sets default values
@@ -18,7 +19,7 @@ ASCharacter::ASCharacter()
 	Mesh1 = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh 1"));
 	Mesh1->SetupAttachment(RootComponent);
 
-
+	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &ASCharacter::OnOverlapBegin);
 	Mesh2 = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh 2"));
 	Mesh2->SetupAttachment(RootComponent);
 
@@ -36,6 +37,35 @@ void ASCharacter::MoveRight(float Value)
 {
 	AddMovementInput(GetActorRightVector() * Value);
 }
+
+void ASCharacter::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	if ((OtherActor != nullptr) && (OtherActor != this) && (OtherComp != nullptr))
+	{
+		if (OtherActor->IsA(AWispsPickup::StaticClass()))
+		{
+			/*APickup* pickup = Cast<APickup>(OtherActor);
+			if (pickup)
+			{
+				UItem* it = pickup->GetItem();
+				if (it)
+				{
+					Inventory->AddItem(it);
+				}
+			}*/
+			if (GEngine)
+			{
+				GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Pick Me UP!!!"));
+			}
+			wispsCount++;
+			OtherActor->Destroy();
+
+		}
+
+
+	}
+}
+
 // Called to bind functionality to input
 void ASCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {

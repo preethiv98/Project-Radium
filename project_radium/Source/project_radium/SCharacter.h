@@ -12,6 +12,7 @@
 
 class UCameraComponent;
 class USpringArmComponent;
+class AWispsPickup;
 UCLASS()
 class PROJECT_RADIUM_API ASCharacter : public ACharacter
 {
@@ -41,8 +42,15 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 		UStaticMeshComponent* Mesh2;
 
+	UPROPERTY(BlueprintReadOnly, Category = "Wisps", meta = (ClampMin = 0))
+	int wispsCount;
+
 	UPROPERTY(BlueprintReadOnly, Category = "Player")
 		bool bDied;
+
+	UFUNCTION()
+		void OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
 public:	
 
 	// Called to bind functionality to input
