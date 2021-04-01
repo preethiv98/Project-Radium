@@ -24,8 +24,12 @@ public:
 	// Sets default values for this character's properties
 	ASCharacter();
 
+	UPROPERTY(BlueprintReadOnly, Category = "Wisps", meta = (ClampMin = 0))
+		int wispsCount;
+
 protected:
-	
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
 	void MoveForward(float Value);
 
 	void MoveRight(float Value);
@@ -42,17 +46,33 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 		UStaticMeshComponent* Mesh2;
 
-	UPROPERTY(BlueprintReadOnly, Category = "Wisps", meta = (ClampMin = 0))
-	int wispsCount;
+	
 
 	UPROPERTY(BlueprintReadOnly, Category = "Player")
 		bool bDied;
+
+		bool bWantsToZoom;
+
+		UPROPERTY(EditDefaultsOnly, Category = "Player")
+		float ZoomedFOV;
+
+		UPROPERTY(EditDefaultsOnly, Category = "Player", meta = (ClampMin = 0.0, ClampMax = 100))
+		float ZoomInterpSpeed;
+
+		
+
+		float DefaultFOV;
+
+		void BeginZoom();
+
+		void EndZoom();
 
 	UFUNCTION()
 		void OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
 public:	
-
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
