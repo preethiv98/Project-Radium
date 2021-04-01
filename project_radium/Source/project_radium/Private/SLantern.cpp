@@ -55,17 +55,20 @@ void ASLantern::CastAttack()
 
 			int wispCount = MyCharacter->wispsCount;
 
-
 			UGameplayStatics::ApplyPointDamage(HitActor, 20.0f, ShotDirection, Hit, MyOwner->GetInstigatorController(), this, DamageType);
-
-
-
-		
 
 
 		}
 
-		DrawDebugLine(GetWorld(), EyeLocation, TraceEnd, FColor::White, false, 1.0f, 0, 1.0f);
+		if (!heldDown)
+		{
+
+		}
+		else
+		{
+			DrawDebugLine(GetWorld(), EyeLocation, TraceEnd, FColor::White, false, 1.0f, 0, 1.0f);
+		}
+	
 	}
 
 	
