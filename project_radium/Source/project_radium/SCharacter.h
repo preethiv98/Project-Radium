@@ -13,6 +13,8 @@
 class UCameraComponent;
 class USpringArmComponent;
 class AWispsPickup;
+class ASLantern;
+
 UCLASS()
 class PROJECT_RADIUM_API ASCharacter : public ACharacter
 {
@@ -27,12 +29,19 @@ public:
 	UPROPERTY(BlueprintReadOnly, Category = "Wisps", meta = (ClampMin = 0))
 		int wispsCount;
 
+
+	float GetHoldTime();
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	void MoveForward(float Value);
 
 	void MoveRight(float Value);
+
+	void OnPressed();
+
+	void OnRelease();
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 		UCameraComponent* CameraComp;
@@ -46,6 +55,20 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 		UStaticMeshComponent* Mesh2;
 
+	UPROPERTY(EditDefaultsOnly, Category = "Player")
+	TSubclassOf<ASLantern> lanternClass;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player", meta = (ClampMin = 0.0, ClampMax = 3.0))
+		float holdTime;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player", meta = (ClampMin = 0.0, ClampMax = 6.0))
+		float coolDown;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player")
+		bool heldDown;
+
+
+	ASLantern* lantern;
 	
 
 	UPROPERTY(BlueprintReadOnly, Category = "Player")
@@ -66,6 +89,8 @@ protected:
 		void BeginZoom();
 
 		void EndZoom();
+
+	
 
 	UFUNCTION()
 		void OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);

@@ -22,25 +22,30 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player", meta = (ClampMin = 0.0, ClampMax = 3.0))
 		float holdTime;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player", meta = (ClampMin = 0.0, ClampMax = 6.0))
-		float coolDown;
+	UFUNCTION(BlueprintCallable)
+	float GetCooldown();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player")
 		bool heldDown;
 
+
+	UFUNCTION(BlueprintCallable, Category = "Weapon")
+	virtual	void CastAttack();
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player", meta = (ClampMin = 0.0, ClampMax = 6.0))
+		float coolDown;
 
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	USkeletalMeshComponent* MeshComp;
 
-	UFUNCTION(BlueprintCallable, Category = "Weapon")
-	void CastAttack();
+	UPROPERTY(EditDefaultsOnly, Category = "Player")
+	TSubclassOf<ASCharacter> CharacterClass;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Player")
+
 	ASCharacter* MyCharacter;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
