@@ -27,7 +27,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Pickup")
 		UStaticMeshComponent* ItemMesh;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UBoxComponent* BoxCollider;
 
 	UFUNCTION()

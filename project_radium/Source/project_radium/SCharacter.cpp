@@ -100,10 +100,10 @@ void ASCharacter::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, clas
 				GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Pick Me UP!!!"));
 			}
 			wispsCount++;
-			OtherActor->Destroy();
+			//OtherActor->Destroy();
 
 		}
-
+	
 
 	}
 }
@@ -158,11 +158,36 @@ void ASCharacter::OnRelease()
 {
 	heldDown = false;
 	FString debugC = FString::SanitizeFloat(holdTime);
-	if (lantern)
+	if (lantern && wispsCount != 0)
 	{
 		lantern->SetOwner(this);
 		lantern->CastAttack();
+
+
+		if (holdTime < 1)
+		{
+			wispsCount--;
+		}
+
+		if (holdTime >= 1 && holdTime <= 2)
+		{
+			if (wispsCount >= 2)
+			{
+			wispsCount -= 2;
+			}
+			
+		}
+
+		if (holdTime > 2)
+		{
+			if (wispsCount >= 3)
+			{
+				wispsCount -= 3;
+			}
+		}
 	}
+
+
 
 
 	if (GEngine)
