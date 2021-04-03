@@ -1,8 +1,9 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
+#include "SLantern.h"
 #include "WispsPickup.h"
 #include "SCharacter.h"
+
 
 // Sets default values
 ASCharacter::ASCharacter()
@@ -36,6 +37,19 @@ void ASCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	DefaultFOV = CameraComp->FieldOfView;
+	
+	//Spawn a default Weapon
+	FActorSpawnParameters SpawnParams;
+	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+	//HealthComp->OnHealthChanged.AddDynamic(this, &ASCharacter::OnHealthChanged);
+
+	lantern = GetWorld()->SpawnActor<ASLantern>(lanternClass, FVector::ZeroVector, FRotator::ZeroRotator, SpawnParams);
+	if (lantern)
+	{
+		lantern->SetOwner(this);
+		lantern->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, "Lantern");
+	}
+
 }
 
 void ASCharacter::MoveForward(float Value)
@@ -58,6 +72,12 @@ void ASCharacter::BeginZoom()
 void ASCharacter::EndZoom()
 {
 	bWantsToZoom = false;
+}
+
+
+float ASCharacter::GetHoldTime()
+{
+	return holdTime;
 }
 
 void ASCharacter::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
@@ -98,6 +118,11 @@ void ASCharacter::Tick(float DeltaTime)
 	float NewFOV = FMath::FInterpTo(CameraComp->FieldOfView, TargetFOV, DeltaTime, ZoomInterpSpeed);
 
 	CameraComp->SetFieldOfView(NewFOV);
+
+	if (heldDown)
+	{
+		holdTime = GetWorld()->GetFirstPlayerController()->GetInputKeyTimeDown(EKeys::LeftMouseButton);
+	}
 }
 
 // Called to bind functionality to input
@@ -113,10 +138,37 @@ void ASCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ASCharacter::Jump);
 
+	PlayerInputComponent->BindAction("Attack", IE_Pressed, this, &ASCharacter::OnPressed);
+	PlayerInputComponent->BindAction("Attack", IE_Released, this, &ASCharacter::OnRelease);
+
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 
 	PlayerInputComponent->BindAction("Zoom", IE_Pressed, this, &ASCharacter::BeginZoom);
 	PlayerInputComponent->BindAction("Zoom", IE_Released, this, &ASCharacter::EndZoom);
 
+}
+
+void ASCharacter::OnPressed()
+{
+	heldDown = true;
+}
+
+
+void ASCharacter::OnRelease()
+{
+	heldDown = false;
+	FString debugC = FString::SanitizeFloat(holdTime);
+	if (lantern)
+	{
+		lantern->SetOwner(this);
+		lantern->CastAttack();
+	}
+
+
+	if (GEngine)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, *debugC);
+	}
 }
 
 FVector ASCharacter::GetPawnViewLocation() const

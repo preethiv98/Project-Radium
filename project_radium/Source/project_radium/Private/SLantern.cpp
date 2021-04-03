@@ -18,11 +18,26 @@ ASLantern::ASLantern()
 
 }
 
+float ASLantern::GetCooldown()
+{
+	return coolDown;
+}
+
 // Called when the game starts or when spawned
 void ASLantern::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	// Get world.
+	//UWorld* World = this->GetWorld();
+	//if (World)
+	//{
+	//	// Spawn params.
+	//	FActorSpawnParameters Spawn_Parameters;
+	//	Spawn_Parameters.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+
+	//	// Spawn.
+	//	MyCharacter = World->SpawnActor<ASCharacter>(CharacterClass, Spawn_Parameters);
+	//}
 }
 
 void ASLantern::CastAttack()
@@ -30,15 +45,46 @@ void ASLantern::CastAttack()
 	AActor* MyOwner = GetOwner();
 	if (MyOwner)
 	{
+		float chargeTime = 0.0f;
+		MyCharacter = Cast<ASCharacter>(MyOwner);		
+
+		if (MyCharacter)
+		{
+		 chargeTime = MyCharacter->GetHoldTime();
+		}
+	
+
 		FVector EyeLocation;
 		FRotator EyeRotation;
 		MyOwner->GetActorEyesViewPoint(EyeLocation, EyeRotation);
 
-
-		FVector ShotDirection = EyeRotation.Vector();
 		FVector TraceEnd = EyeLocation + (EyeRotation.Vector() * 10000);
+		FVector ShotDirection = EyeRotation.Vector();
+
+		if (chargeTime < 1)
+		{
+			TraceEnd = EyeLocation + (EyeRotation.Vector() * 1000);
+			coolDown = 2.0f;
+		}
+
+		if (chargeTime >= 1 && chargeTime <= 2)
+		{
+			TraceEnd = EyeLocation + (EyeRotation.Vector() * 2000);
+			coolDown = 4.0f;
+		}
+
+		if (chargeTime > 2)
+		{
+			TraceEnd = EyeLocation + (EyeRotation.Vector() * 3000);
+			coolDown = 6.0f;
+		}
 
 
+		FString debugC = FString::SanitizeFloat(coolDown);
+		if (GEngine)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, *debugC);
+		}
 
 		FCollisionQueryParams QueryParams;
 		QueryParams.AddIgnoredActor(MyOwner);
@@ -57,17 +103,11 @@ void ASLantern::CastAttack()
 
 			UGameplayStatics::ApplyPointDamage(HitActor, 20.0f, ShotDirection, Hit, MyOwner->GetInstigatorController(), this, DamageType);
 
-
 		}
 
-		if (!heldDown)
-		{
-
-		}
-		else
-		{
+		
 			DrawDebugLine(GetWorld(), EyeLocation, TraceEnd, FColor::White, false, 1.0f, 0, 1.0f);
-		}
+
 	
 	}
 
