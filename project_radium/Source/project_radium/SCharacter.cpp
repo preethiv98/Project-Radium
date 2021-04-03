@@ -171,12 +171,19 @@ void ASCharacter::OnRelease()
 
 		if (holdTime >= 1 && holdTime <= 2)
 		{
+			if (wispsCount >= 2)
+			{
 			wispsCount -= 2;
+			}
+			
 		}
 
 		if (holdTime > 2)
 		{
-			wispsCount -= 3;
+			if (wispsCount >= 3)
+			{
+				wispsCount -= 3;
+			}
 		}
 	}
 
