@@ -37,14 +37,19 @@ void ASCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	DefaultFOV = CameraComp->FieldOfView;
-	if (lanternClass)
-	{
-		lantern = NewObject<ASLantern>(this, lanternClass);
-	}
+	
+	//Spawn a default Weapon
+	FActorSpawnParameters SpawnParams;
+	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+	//HealthComp->OnHealthChanged.AddDynamic(this, &ASCharacter::OnHealthChanged);
+
+	lantern = GetWorld()->SpawnActor<ASLantern>(lanternClass, FVector::ZeroVector, FRotator::ZeroRotator, SpawnParams);
 	if (lantern)
 	{
 		lantern->SetOwner(this);
+		lantern->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, "Lantern");
 	}
+
 }
 
 void ASCharacter::MoveForward(float Value)

@@ -27,10 +27,17 @@ float ASLantern::GetCooldown()
 void ASLantern::BeginPlay()
 {
 	Super::BeginPlay();
-	if (CharacterClass)
-	{
-		MyCharacter = NewObject<ASCharacter>(this, CharacterClass);
-	}
+	// Get world.
+	//UWorld* World = this->GetWorld();
+	//if (World)
+	//{
+	//	// Spawn params.
+	//	FActorSpawnParameters Spawn_Parameters;
+	//	Spawn_Parameters.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+
+	//	// Spawn.
+	//	MyCharacter = World->SpawnActor<ASCharacter>(CharacterClass, Spawn_Parameters);
+	//}
 }
 
 void ASLantern::CastAttack()
@@ -38,8 +45,8 @@ void ASLantern::CastAttack()
 	AActor* MyOwner = GetOwner();
 	if (MyOwner)
 	{
-		
 		float chargeTime = 0.0f;
+		MyCharacter = Cast<ASCharacter>(MyOwner);		
 
 		if (MyCharacter)
 		{
@@ -76,7 +83,7 @@ void ASLantern::CastAttack()
 		FString debugC = FString::SanitizeFloat(coolDown);
 		if (GEngine)
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, *debugC);
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, *debugC);
 		}
 
 		FCollisionQueryParams QueryParams;
