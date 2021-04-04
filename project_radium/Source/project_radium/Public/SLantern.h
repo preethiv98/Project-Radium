@@ -4,11 +4,17 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Kismet/GameplayStatics.h"
 #include "SLantern.generated.h"
+
+
 
 class ASCharacter;
 class USkeletalMeshComponent;
 class UDamageType;
+
+class UAudioComponent;
+
 
 UCLASS()
 class PROJECT_RADIUM_API ASLantern : public AActor
@@ -28,9 +34,12 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player")
 		bool heldDown;
 
+	
 
 	UFUNCTION(BlueprintCallable, Category = "Weapon")
 	virtual	void CastAttack();
+
+
 
 protected:
 	// Called when the game starts or when spawned
@@ -51,6 +60,7 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
 	TSubclassOf<UDamageType> DamageType;
 
+private:
 
 
 public:	

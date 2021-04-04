@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 #include "SCharacter.h"
 #include "SLantern.h"
+#include "Components/AudioComponent.h"
 #include "WispsPickup.h"
 
 
@@ -23,6 +24,10 @@ ASCharacter::ASCharacter()
 	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &ASCharacter::OnOverlapBegin);
 	Mesh2 = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh 2"));
 	Mesh2->SetupAttachment(RootComponent);
+
+	audioComponent = CreateDefaultSubobject<UAudioComponent>(TEXT("Audio Lantern"));
+	audioComponent->SetupAttachment(RootComponent);
+
 
 	ZoomedFOV = 65.0f;
 	ZoomInterpSpeed = 20.0f;
@@ -151,6 +156,11 @@ void ASCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 void ASCharacter::OnPressed()
 {
 	heldDown = true;
+	if (audioComponent && LanternCharge)
+	{
+		audioComponent->SetSound((USoundBase*)LanternCharge);
+		audioComponent->Play(0.5f);
+	}
 }
 
 void ASCharacter::SetWispsCount(int wispCount)
