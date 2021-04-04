@@ -11,7 +11,6 @@
 #include "SCharacter.generated.h"
 
 class UCameraComponent;
-class USoundCue;
 class USpringArmComponent;
 class AWispsPickup;
 class ASLantern;
@@ -34,16 +33,6 @@ public:
 	void SetWispsCount(int wispCount);
 
 	float GetHoldTime();
-
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Audio")
-		USoundCue* LanternCharge;
-
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Audio")
-		USoundCue* LanternFire;
-
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Audio")
-		USoundCue* LanternFailed;
-
 
 protected:
 	// Called when the game starts or when spawned
@@ -116,7 +105,5 @@ public:
 
 	virtual FVector GetPawnViewLocation() const override;
 
-private:
-	UAudioComponent* audioComponent;
 
 };
