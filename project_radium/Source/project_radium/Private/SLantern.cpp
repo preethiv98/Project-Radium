@@ -63,20 +63,30 @@ void ASLantern::CastAttack()
 
 		if (chargeTime < 1)
 		{
-			TraceEnd = EyeLocation + (EyeRotation.Vector() * 1000);
-			coolDown = 2.0f;
+			if (MyCharacter->wispsCount >= 1)
+			{
+				TraceEnd = EyeLocation + (EyeRotation.Vector() * 1000);
+				coolDown = 2.0f;
+			}
+			
 		}
 
 		if (chargeTime >= 1 && chargeTime <= 2)
 		{
+			if (MyCharacter->wispsCount >= 2)
+			{
 			TraceEnd = EyeLocation + (EyeRotation.Vector() * 2000);
 			coolDown = 4.0f;
+			}
 		}
 
 		if (chargeTime > 2)
 		{
+			if (MyCharacter->wispsCount >= 3)
+			{
 			TraceEnd = EyeLocation + (EyeRotation.Vector() * 3000);
 			coolDown = 6.0f;
+			}
 		}
 
 
