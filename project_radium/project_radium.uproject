@@ -17,10 +17,6 @@
 		{
 			"Name": "NiagaraExtras",
 			"Enabled": true
-		},
-		{
-			"Name": "HoudiniEngine",
-			"Enabled": true
 		}
 	]
 }
