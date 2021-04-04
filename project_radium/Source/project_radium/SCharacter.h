@@ -29,6 +29,8 @@ public:
 	UPROPERTY(BlueprintReadOnly, Category = "Wisps", meta = (ClampMin = 0))
 		int wispsCount;
 
+	UFUNCTION(BlueprintCallable)
+	void SetWispsCount(int wispCount);
 
 	float GetHoldTime();
 

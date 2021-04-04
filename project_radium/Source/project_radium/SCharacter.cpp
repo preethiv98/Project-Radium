@@ -1,8 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
-
+#include "SCharacter.h"
 #include "SLantern.h"
 #include "WispsPickup.h"
-#include "SCharacter.h"
+
 
 
 // Sets default values
@@ -153,6 +153,10 @@ void ASCharacter::OnPressed()
 	heldDown = true;
 }
 
+void ASCharacter::SetWispsCount(int wispCount)
+{
+	wispsCount = wispCount;
+}
 
 void ASCharacter::OnRelease()
 {
