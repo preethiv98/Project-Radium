@@ -3174,3 +3174,483 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.04.04-18.09.45:705][437]UATHelper: Packaging (Windows (64-bit)): BUILD SUCCESSFUL
 [2021.04.04-18.09.45:705][437]UATHelper: Packaging (Windows (64-bit)): AutomationTool exiting with ExitCode=0 (Success)
 [2021.04.04-18.14.56:410][775]LogUObjectHash: Compacting FUObjectHashTables data took   4.79ms
+[2021.04.04-18.30.03:229][518]BlueprintLog: New page: Compile BP_CharacterPawn
+[2021.04.04-18.30.03:330][518]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2021.04.04-18.30.04:006][557]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_CharacterPawn" FILE="D:/project_radium_repo/project_radium/Content/Blueprints/BP_CharacterPawn.uasset" SILENT=true
+[2021.04.04-18.30.04:063][557]LogSavePackage: Moving 'D:/project_radium_repo/project_radium/Saved/BP_CharacterPawnE466AC7C467CF1631E5219B8165693DE.tmp' to 'D:/project_radium_repo/project_radium/Content/Blueprints/BP_CharacterPawn.uasset'
+[2021.04.04-18.30.04:078][557]AssetCheck: New page: Asset Save: BP_CharacterPawn
+[2021.04.04-18.30.04:078][557]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_CharacterPawn.BP_CharacterPawn
+[2021.04.04-18.30.04:664][624]LogSlate: Window 'Game_UI' being destroyed
+[2021.04.04-18.30.04:675][624]LogSlate: Window 'Game_UI' being destroyed
+[2021.04.04-18.30.04:684][624]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.04.04-18.30.04:684][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.04-18.30.04:731][624]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.04.04-18.30.04:731][624]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.04.04-18.30.04:731][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.04-18.30.04:781][624]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.04.04-18.30.04:781][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.04-18.30.04:789][624]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.04.04-18.30.04:789][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.04-18.30.05:415][624]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.04.04-18.30.05:415][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.04-18.30.05:437][624]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.04.04-18.30.05:438][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.04-18.30.05:497][624]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2021.04.04-18.30.05:497][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.04-18.30.05:504][624]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2021.04.04-18.30.05:504][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.04-18.30.08:932][905]LogUObjectHash: Compacting FUObjectHashTables data took   9.53ms
+[2021.04.04-18.30.09:164][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_01" FILE="D:/project_radium_repo/project_radium/Content/Maps/Level_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.04.04-18.30.09:254][905]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2021.04.04-18.30.09:487][905]LogSavePackage: Moving 'D:/project_radium_repo/project_radium/Saved/Level_01D518DFA04FB1094BD59EE1A8BE793CB5.tmp' to 'D:/project_radium_repo/project_radium/Content/Maps/Level_01.umap'
+[2021.04.04-18.30.09:531][905]LogFileHelpers: Saving map 'Level_01' took 0.368
+[2021.04.04-18.30.09:532][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_01_BuiltData" FILE="D:/project_radium_repo/project_radium/Content/Maps/Level_01_BuiltData.uasset" SILENT=true
+[2021.04.04-18.30.10:141][905]LogSavePackage: Moving 'D:/project_radium_repo/project_radium/Saved/Level_01_BuiltDataFFE9DB984DB1A3A4B426A0A64A6160C4.tmp' to 'D:/project_radium_repo/project_radium/Content/Maps/Level_01_BuiltData.uasset'
+[2021.04.04-18.30.10:146][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/TitleMap" FILE="D:/project_radium_repo/project_radium/Content/ThirdPersonBP/Maps/TitleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.04.04-18.30.10:177][905]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2021.04.04-18.30.10:287][905]LogSavePackage: Moving 'D:/project_radium_repo/project_radium/Saved/TitleMap40C8FA3648790BA357ACA9AF955AE099.tmp' to 'D:/project_radium_repo/project_radium/Content/ThirdPersonBP/Maps/TitleMap.umap'
+[2021.04.04-18.30.10:293][905]LogFileHelpers: Saving map 'TitleMap' took 0.148
+[2021.04.04-18.30.21:631][905]LogMainFrame: Selected target: project_radium
+[2021.04.04-18.30.21:633][905]LogLauncherProfile: Unable to use promoted target - receipt D:/project_radium_repo/project_radium/Binaries/Win64/project_radium.target is not for a promoted target
+[2021.04.04-18.30.21:653][905]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.04-18.30.21:653][905]LogContentValidation: Display: Validating World /Game/Maps/Level_01.Level_01
+[2021.04.04-18.30.21:653][905]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Level_01_BuiltData.Level_01_BuiltData
+[2021.04.04-18.30.21:654][905]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/TitleMap.TitleMap
+[2021.04.04-18.30.21:723][905]UATHelper: Packaging (Windows (64-bit)): Running AutomationTool...
+[2021.04.04-18.30.21:749][906]UATHelper: Packaging (Windows (64-bit)): Parsing command line: -ScriptsForProject=D:/project_radium_repo/project_radium/project_radium.uproject BuildCookRun -nocompileeditor -installed -nop4 -project=D:/project_radium_repo/project_radium/project_radium.uproject -cook -stage -archive -archivedirectory="D:/Game Jam Test Build" -package -ue4exe="C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -pak -prereqs -nodebuginfo -targetplatform=Win64 -build -target=project_radium -clientconfig=Development -utf8output
+[2021.04.04-18.30.22:114][918]UATHelper: Packaging (Windows (64-bit)): Setting up ProjectParams for D:\project_radium_repo\project_radium\project_radium.uproject
+[2021.04.04-18.30.22:308][941]UATHelper: Packaging (Windows (64-bit)): ********** BUILD COMMAND STARTED **********
+[2021.04.04-18.30.22:330][944]UATHelper: Packaging (Windows (64-bit)): Running: C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Binaries\DotNET\UnrealBuildTool.exe project_radium Win64 Development -Project=D:\project_radium_repo\project_radium\project_radium.uproject  D:\project_radium_repo\project_radium\project_radium.uproject -NoUBTMakefiles  -remoteini="D:\project_radium_repo\project_radium" -skipdeploy -Manifest=D:\project_radium_repo\project_radium\Intermediate\Build\Manifest.xml -NoHotReload -log="C:\Users\preet\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+(x86)+Epic+Games+UE_4.25\UBT-project_radium-Win64-Development.txt"
+[2021.04.04-18.30.22:554][970]UATHelper: Packaging (Windows (64-bit)):   Using 'git status' to determine working set for adaptive non-unity build (D:\project_radium_repo).
+[2021.04.04-18.30.23:356][ 66]UATHelper: Packaging (Windows (64-bit)):   Writing manifest to D:\project_radium_repo\project_radium\Intermediate\Build\Manifest.xml
+[2021.04.04-18.30.23:449][ 77]UATHelper: Packaging (Windows (64-bit)):   Target is up to date
+[2021.04.04-18.30.23:463][ 78]UATHelper: Packaging (Windows (64-bit)):   Total execution time: 1.10 seconds
+[2021.04.04-18.30.23:502][ 83]UATHelper: Packaging (Windows (64-bit)): Took 1.1752228s to run UnrealBuildTool.exe, ExitCode=0
+[2021.04.04-18.30.23:511][ 84]UATHelper: Packaging (Windows (64-bit)): ********** BUILD COMMAND COMPLETED **********
+[2021.04.04-18.30.23:520][ 85]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND STARTED **********
+[2021.04.04-18.30.23:520][ 85]UATHelper: Packaging (Windows (64-bit)): Running UE4Editor Cook for project D:\project_radium_repo\project_radium\project_radium.uproject
+[2021.04.04-18.30.23:520][ 85]UATHelper: Packaging (Windows (64-bit)): Commandlet log file is C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Programs\AutomationTool\Saved\Cook-2021.04.04-14.30.23.txt
+[2021.04.04-18.30.23:520][ 85]UATHelper: Packaging (Windows (64-bit)): Running: C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe D:\project_radium_repo\project_radium\project_radium.uproject -run=Cook  -TargetPlatform=WindowsNoEditor -fileopenlog -unversioned -abslog="C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Programs\AutomationTool\Saved\Cook-2021.04.04-14.30.23.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2021.04.04-18.30.23:793][118]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Running engine for game: project_radium
+[2021.04.04-18.30.24:776][236]UATHelper: Packaging (Windows (64-bit)):   LogHAL: Display: Platform has ~ 64 GB [68558188544 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.04.04-18.30.24:977][260]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.04.04-18.30.24:994][262]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.04.04-18.30.24:994][262]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.04.04-18.30.24:994][262]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.04.04-18.30.24:994][262]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.04.04-18.30.24:994][262]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.04.04-18.30.24:994][262]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.04.04-18.30.24:994][262]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.04.04-18.30.24:995][262]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.04.04-18.30.24:995][262]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.04.04-18.30.24:995][262]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.04.04-18.30.25:017][265]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.04.04-18.30.25:017][265]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.04.04-18.30.25:026][266]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.04.04-18.30.25:034][267]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.04.04-18.30.25:043][268]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.04.04-18.30.25:050][269]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.04.04-18.30.25:060][270]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.04.04-18.30.25:060][270]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.04.04-18.30.25:067][271]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.04.04-18.30.25:093][274]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.04.04-18.30.25:093][274]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.04.04-18.30.25:101][275]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.04.04-18.30.25:101][275]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.04.04-18.30.25:110][276]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.04.04-18.30.25:118][277]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.04.04-18.30.25:126][278]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.04.04-18.30.25:134][279]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.04.04-18.30.25:134][279]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Building Assets For WindowsNoEditor
+[2021.04.04-18.30.25:134][279]UATHelper: Packaging (Windows (64-bit)):   LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.04.04-18.30.25:467][319]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.04.04-18.30.25:901][371]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.04.04-18.30.25:952][377]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/preet/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.04.04-18.30.25:967][379]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.04.04-18.30.27:084][513]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.04-18.30.27:084][513]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.04-18.30.27:401][551]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.04.04-18.30.27:401][551]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Mobile HDR setting 1
+[2021.04.04-18.30.27:401][551]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Creating asset registry
+[2021.04.04-18.30.27:535][567]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Discovering localized assets for cultures: en
+[2021.04.04-18.30.27:561][570]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Clearing all cooked content for platform WindowsNoEditor
+[2021.04.04-18.30.27:606][575]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Sandbox cleanup took 0.068 seconds for platforms WindowsNoEditor
+[2021.04.04-18.30.28:898][730]UATHelper: Packaging (Windows (64-bit)):   CookResults: Warning: Unable to find package for cooking /Game/Models/Whitebox01_ExportedModel
+[2021.04.04-18.30.28:898][730]UATHelper: Packaging (Windows (64-bit)):   LogCook: Warning: Unable to find package for cooking /Game/Models/Whitebox01_ExportedModel
+[2021.04.04-18.30.28:898][730]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 0 Packages Remain 712 Total 712
+[2021.04.04-18.30.28:898][730]PackagingResults: Warning: Unable to find package for cooking /Game/Models/Whitebox01_ExportedModel
+[2021.04.04-18.30.28:898][730]PackagingResults: Warning: Unable to find package for cooking /Game/Models/Whitebox01_ExportedModel
+[2021.04.04-18.30.29:120][757]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 50 Packages Remain 711 Total 761
+[2021.04.04-18.30.29:919][853]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 100 Packages Remain 710 Total 810
+[2021.04.04-18.30.30:411][912]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 150 Packages Remain 711 Total 861
+[2021.04.04-18.30.30:521][925]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 200 Packages Remain 712 Total 912
+[2021.04.04-18.30.30:606][935]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 250 Packages Remain 712 Total 962
+[2021.04.04-18.30.30:705][947]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 286 Packages Remain 563 Total 849
+[2021.04.04-18.30.30:705][947]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 293 Packages Remain 563 Total 856
+[2021.04.04-18.30.30:713][948]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 299 Packages Remain 562 Total 861
+[2021.04.04-18.30.30:720][949]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 304 Packages Remain 561 Total 865
+[2021.04.04-18.30.31:011][983]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 308 Packages Remain 560 Total 868
+[2021.04.04-18.30.31:212][  7]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 336 Packages Remain 559 Total 895
+[2021.04.04-18.30.31:245][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 343 Packages Remain 558 Total 901
+[2021.04.04-18.30.31:631][ 57]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 386 Packages Remain 559 Total 945
+[2021.04.04-18.30.31:852][ 83]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 436 Packages Remain 560 Total 996
+[2021.04.04-18.30.32:055][107]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 486 Packages Remain 560 Total 1046
+[2021.04.04-18.30.32:386][147]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 536 Packages Remain 579 Total 1115
+[2021.04.04-18.30.32:663][180]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 586 Packages Remain 578 Total 1164
+[2021.04.04-18.30.32:731][187]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 633 Packages Remain 576 Total 1209
+[2021.04.04-18.30.32:731][187]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 633 Packages Remain 574 Total 1207
+[2021.04.04-18.30.32:856][202]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 635 Packages Remain 569 Total 1204
+[2021.04.04-18.30.32:895][206]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 660 Packages Remain 568 Total 1228
+[2021.04.04-18.30.32:895][206]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 660 Packages Remain 567 Total 1227
+[2021.04.04-18.30.32:909][208]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 673 Packages Remain 559 Total 1232
+[2021.04.04-18.30.32:909][208]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 674 Packages Remain 558 Total 1232
+[2021.04.04-18.30.32:909][208]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 675 Packages Remain 556 Total 1231
+[2021.04.04-18.30.32:926][209]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 675 Packages Remain 553 Total 1228
+[2021.04.04-18.30.32:968][214]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 677 Packages Remain 552 Total 1229
+[2021.04.04-18.30.32:978][215]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 678 Packages Remain 516 Total 1194
+[2021.04.04-18.30.32:978][215]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 678 Packages Remain 508 Total 1186
+[2021.04.04-18.30.32:986][216]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 678 Packages Remain 485 Total 1163
+[2021.04.04-18.30.32:986][216]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 678 Packages Remain 484 Total 1162
+[2021.04.04-18.30.32:986][216]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 678 Packages Remain 461 Total 1139
+[2021.04.04-18.30.32:986][216]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 678 Packages Remain 448 Total 1126
+[2021.04.04-18.30.33:003][218]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 688 Packages Remain 447 Total 1135
+[2021.04.04-18.30.33:003][218]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 690 Packages Remain 446 Total 1136
+[2021.04.04-18.30.33:011][219]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 691 Packages Remain 445 Total 1136
+[2021.04.04-18.30.33:011][219]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 692 Packages Remain 444 Total 1136
+[2021.04.04-18.30.33:011][219]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 693 Packages Remain 443 Total 1136
+[2021.04.04-18.30.33:011][219]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 694 Packages Remain 442 Total 1136
+[2021.04.04-18.30.33:018][220]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 695 Packages Remain 441 Total 1136
+[2021.04.04-18.30.33:019][220]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 696 Packages Remain 440 Total 1136
+[2021.04.04-18.30.33:027][221]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 697 Packages Remain 437 Total 1134
+[2021.04.04-18.30.33:027][221]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 698 Packages Remain 436 Total 1134
+[2021.04.04-18.30.33:027][221]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 699 Packages Remain 435 Total 1134
+[2021.04.04-18.30.33:034][222]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 700 Packages Remain 434 Total 1134
+[2021.04.04-18.30.33:034][222]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 701 Packages Remain 433 Total 1134
+[2021.04.04-18.30.33:034][222]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 702 Packages Remain 432 Total 1134
+[2021.04.04-18.30.33:044][223]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 703 Packages Remain 430 Total 1133
+[2021.04.04-18.30.33:044][223]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 704 Packages Remain 426 Total 1130
+[2021.04.04-18.30.33:044][223]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 705 Packages Remain 425 Total 1130
+[2021.04.04-18.30.33:051][224]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 706 Packages Remain 424 Total 1130
+[2021.04.04-18.30.33:059][225]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 707 Packages Remain 423 Total 1130
+[2021.04.04-18.30.33:059][225]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 708 Packages Remain 420 Total 1128
+[2021.04.04-18.30.33:067][226]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 709 Packages Remain 418 Total 1127
+[2021.04.04-18.30.33:078][227]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 710 Packages Remain 414 Total 1124
+[2021.04.04-18.30.33:078][227]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 711 Packages Remain 413 Total 1124
+[2021.04.04-18.30.33:084][228]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 712 Packages Remain 412 Total 1124
+[2021.04.04-18.30.33:084][228]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 713 Packages Remain 409 Total 1122
+[2021.04.04-18.30.33:102][230]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 714 Packages Remain 404 Total 1118
+[2021.04.04-18.30.33:103][230]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 715 Packages Remain 403 Total 1118
+[2021.04.04-18.30.33:103][230]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 716 Packages Remain 400 Total 1116
+[2021.04.04-18.30.33:103][230]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 717 Packages Remain 396 Total 1113
+[2021.04.04-18.30.33:111][231]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 718 Packages Remain 393 Total 1111
+[2021.04.04-18.30.33:118][232]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 719 Packages Remain 391 Total 1110
+[2021.04.04-18.30.33:127][233]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 720 Packages Remain 389 Total 1109
+[2021.04.04-18.30.33:137][234]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 721 Packages Remain 384 Total 1105
+[2021.04.04-18.30.33:137][234]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 721 Packages Remain 353 Total 1074
+[2021.04.04-18.30.33:151][236]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 724 Packages Remain 339 Total 1063
+[2021.04.04-18.30.33:152][236]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 724 Packages Remain 323 Total 1047
+[2021.04.04-18.30.33:161][237]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 729 Packages Remain 320 Total 1049
+[2021.04.04-18.30.33:294][253]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 736 Packages Remain 317 Total 1053
+[2021.04.04-18.30.33:524][280]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 759 Packages Remain 313 Total 1072
+[2021.04.04-18.30.33:557][284]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 761 Packages Remain 312 Total 1073
+[2021.04.04-18.30.33:557][284]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 763 Packages Remain 310 Total 1073
+[2021.04.04-18.30.33:566][285]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 765 Packages Remain 298 Total 1063
+[2021.04.04-18.30.33:567][285]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 766 Packages Remain 296 Total 1062
+[2021.04.04-18.30.33:567][285]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 767 Packages Remain 294 Total 1061
+[2021.04.04-18.30.33:574][286]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 768 Packages Remain 293 Total 1061
+[2021.04.04-18.30.33:574][286]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 769 Packages Remain 292 Total 1061
+[2021.04.04-18.30.33:574][286]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 770 Packages Remain 289 Total 1059
+[2021.04.04-18.30.33:574][286]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 771 Packages Remain 286 Total 1057
+[2021.04.04-18.30.33:889][324]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 773 Packages Remain 283 Total 1056
+[2021.04.04-18.30.33:889][324]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 773 Packages Remain 272 Total 1045
+[2021.04.04-18.30.33:899][325]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 775 Packages Remain 271 Total 1046
+[2021.04.04-18.30.33:899][325]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 776 Packages Remain 270 Total 1046
+[2021.04.04-18.30.33:899][325]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Materials/Ammunition/M_762x39_Empty': Can't find file.
+[2021.04.04-18.30.33:899][325]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Materials/Ammunition/M_762x39_Empty': Can't find file.
+[2021.04.04-18.30.33:899][325]PackagingResults: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Materials/Ammunition/M_762x39_Empty': Can't find file.
+[2021.04.04-18.30.33:899][325]PackagingResults: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Materials/Ammunition/M_762x39_Empty': Can't find file.
+[2021.04.04-18.30.33:899][325]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Materials/AR4/M_AR4': Can't find file.
+[2021.04.04-18.30.33:901][325]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Materials/AR4/M_AR4': Can't find file.
+[2021.04.04-18.30.33:901][325]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Materials/Ammunition/M_762x39_Empty': Can't find file.
+[2021.04.04-18.30.33:901][325]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Materials/Ammunition/M_762x39_Empty': Can't find file.
+[2021.04.04-18.30.33:901][325]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Materials/AR4/M_AR4': Can't find file.
+[2021.04.04-18.30.33:901][325]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Materials/AR4/M_AR4': Can't find file.
+[2021.04.04-18.30.33:901][325]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Physics': Can't find file.
+[2021.04.04-18.30.33:901][325]PackagingResults: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Materials/AR4/M_AR4': Can't find file.
+[2021.04.04-18.30.33:901][325]PackagingResults: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Materials/AR4/M_AR4': Can't find file.
+[2021.04.04-18.30.33:901][325]PackagingResults: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Materials/Ammunition/M_762x39_Empty': Can't find file.
+[2021.04.04-18.30.33:901][325]PackagingResults: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Materials/Ammunition/M_762x39_Empty': Can't find file.
+[2021.04.04-18.30.33:901][325]PackagingResults: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Materials/AR4/M_AR4': Can't find file.
+[2021.04.04-18.30.33:901][325]PackagingResults: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Materials/AR4/M_AR4': Can't find file.
+[2021.04.04-18.30.33:901][325]PackagingResults: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Physics': Can't find file.
+[2021.04.04-18.30.33:902][325]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Physics': Can't find file.
+[2021.04.04-18.30.33:902][325]PackagingResults: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Physics': Can't find file.
+[2021.04.04-18.30.33:908][326]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Skeleton': Can't find file.
+[2021.04.04-18.30.33:908][326]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Skeleton': Can't find file.
+[2021.04.04-18.30.33:908][326]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Physics': Can't find file.
+[2021.04.04-18.30.33:908][326]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Physics': Can't find file.
+[2021.04.04-18.30.33:908][326]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Skeleton': Can't find file.
+[2021.04.04-18.30.33:908][326]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Skeleton': Can't find file.
+[2021.04.04-18.30.33:908][326]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Skeleton': Can't find file.
+[2021.04.04-18.30.33:908][326]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Skeleton': Can't find file.
+[2021.04.04-18.30.33:908][326]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Physics': Can't find file.
+[2021.04.04-18.30.33:908][326]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Physics': Can't find file.
+[2021.04.04-18.30.33:908][326]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Materials/Ammunition/M_762x39_Empty': Can't find file.
+[2021.04.04-18.30.33:908][326]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Materials/Ammunition/M_762x39_Empty': Can't find file.
+[2021.04.04-18.30.33:908][326]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Materials/AR4/M_AR4': Can't find file.
+[2021.04.04-18.30.33:908][326]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Materials/AR4/M_AR4': Can't find file.
+[2021.04.04-18.30.33:908][326]PackagingResults: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Skeleton': Can't find file.
+[2021.04.04-18.30.33:908][326]PackagingResults: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Skeleton': Can't find file.
+[2021.04.04-18.30.33:908][326]PackagingResults: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Physics': Can't find file.
+[2021.04.04-18.30.33:908][326]PackagingResults: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Physics': Can't find file.
+[2021.04.04-18.30.33:908][326]PackagingResults: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Skeleton': Can't find file.
+[2021.04.04-18.30.33:908][326]PackagingResults: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Skeleton': Can't find file.
+[2021.04.04-18.30.33:908][326]PackagingResults: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Skeleton': Can't find file.
+[2021.04.04-18.30.33:908][326]PackagingResults: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Skeleton': Can't find file.
+[2021.04.04-18.30.33:908][326]PackagingResults: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Physics': Can't find file.
+[2021.04.04-18.30.33:908][326]PackagingResults: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Physics': Can't find file.
+[2021.04.04-18.30.33:908][326]PackagingResults: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Materials/Ammunition/M_762x39_Empty': Can't find file.
+[2021.04.04-18.30.33:908][326]PackagingResults: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Materials/Ammunition/M_762x39_Empty': Can't find file.
+[2021.04.04-18.30.33:908][326]PackagingResults: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Materials/AR4/M_AR4': Can't find file.
+[2021.04.04-18.30.33:908][326]PackagingResults: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Materials/AR4/M_AR4': Can't find file.
+[2021.04.04-18.30.33:931][329]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 777 Packages Remain 229 Total 1006
+[2021.04.04-18.30.33:941][330]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 778 Packages Remain 211 Total 989
+[2021.04.04-18.30.33:942][330]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 781 Packages Remain 210 Total 991
+[2021.04.04-18.30.33:942][330]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 781 Packages Remain 197 Total 978
+[2021.04.04-18.30.33:942][330]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 781 Packages Remain 192 Total 973
+[2021.04.04-18.30.33:958][332]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 790 Packages Remain 191 Total 981
+[2021.04.04-18.30.33:964][333]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 792 Packages Remain 190 Total 982
+[2021.04.04-18.30.33:973][334]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 794 Packages Remain 185 Total 979
+[2021.04.04-18.30.33:990][336]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 796 Packages Remain 184 Total 980
+[2021.04.04-18.30.33:991][336]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 797 Packages Remain 181 Total 978
+[2021.04.04-18.30.33:991][336]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 798 Packages Remain 165 Total 963
+[2021.04.04-18.30.33:991][336]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 799 Packages Remain 160 Total 959
+[2021.04.04-18.30.33:997][337]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 801 Packages Remain 154 Total 955
+[2021.04.04-18.30.34:007][338]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 803 Packages Remain 153 Total 956
+[2021.04.04-18.30.34:007][338]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 804 Packages Remain 138 Total 942
+[2021.04.04-18.30.34:007][338]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 805 Packages Remain 137 Total 942
+[2021.04.04-18.30.34:014][339]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 807 Packages Remain 135 Total 942
+[2021.04.04-18.30.34:014][339]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 808 Packages Remain 134 Total 942
+[2021.04.04-18.30.34:014][339]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 809 Packages Remain 131 Total 940
+[2021.04.04-18.30.34:023][340]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 810 Packages Remain 130 Total 940
+[2021.04.04-18.30.34:030][341]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 811 Packages Remain 120 Total 931
+[2021.04.04-18.30.34:038][342]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 812 Packages Remain 119 Total 931
+[2021.04.04-18.30.34:048][343]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 813 Packages Remain 114 Total 927
+[2021.04.04-18.30.34:056][344]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 815 Packages Remain 110 Total 925
+[2021.04.04-18.30.34:063][345]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 816 Packages Remain 109 Total 925
+[2021.04.04-18.30.34:072][346]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 818 Packages Remain 0 Total 818
+[2021.04.04-18.30.34:072][346]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Finishing up...
+[2021.04.04-18.30.34:080][347]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Saving BulkData manifest(s)...
+[2021.04.04-18.30.34:080][347]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Done saving BulkData manifest(s)
+[2021.04.04-18.30.34:080][347]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Nativization Summary - AnimBP:
+[2021.04.04-18.30.34:080][347]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Name, Children, Non-empty Functions (Empty Functions), Variables, FunctionUsage, VariableUsage
+[2021.04.04-18.30.34:080][347]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Nativization Summary - Shared Variables From Graph: 0
+[2021.04.04-18.30.34:090][348]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display:
+[2021.04.04-18.30.34:090][348]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Shader Code Stats: PCD3D_SM5
+[2021.04.04-18.30.34:090][348]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2021.04.04-18.30.34:090][348]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Unique Shaders: 4656, Total Shaders: 22756
+[2021.04.04-18.30.34:090][348]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Unique Shaders Size: 10.68mb, Total Shader Size: 10.68mb
+[2021.04.04-18.30.34:090][348]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2021.04.04-18.30.34:130][353]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Saving asset registry.
+[2021.04.04-18.30.34:147][355]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Generated asset registry num assets 812, size is 502.33kb
+[2021.04.04-18.30.34:147][355]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2021.04.04-18.30.34:147][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cook by the book total time in tick 5.163095s total time 6.749535
+[2021.04.04-18.30.34:147][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Peak Used virtual 1228MB Peak Used physical 1238MB
+[2021.04.04-18.30.34:147][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Hierarchy Timer Information:
+[2021.04.04-18.30.34:147][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:   Root: 0.000s (0)
+[2021.04.04-18.30.34:147][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     StartCookByTheBookTime: 1.502s (1)
+[2021.04.04-18.30.34:147][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       CleanSandbox: 0.068s (1)
+[2021.04.04-18.30.34:147][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         ProcessingAccessedStrings: 0.006s (1)
+[2021.04.04-18.30.34:147][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       CollectFilesToCook: 0.157s (1)
+[2021.04.04-18.30.34:147][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         CookModificationDelegate: 0.000s (1)
+[2021.04.04-18.30.34:147][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         GeneratePackageNames: 0.001s (1)
+[2021.04.04-18.30.34:147][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       GenerateLongPackageName: 0.001s (1)
+[2021.04.04-18.30.34:147][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     TickCookOnTheSide: 5.148s (173)
+[2021.04.04-18.30.34:147][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       LoadPackage: 1.867s (171)
+[2021.04.04-18.30.34:147][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       CallBeginCacheForCookedPlatformData: 0.093s (173)
+[2021.04.04-18.30.34:147][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       PostLoadPackageFixup: 0.000s (173)
+[2021.04.04-18.30.34:147][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SavingPackages: 3.183s (98)
+[2021.04.04-18.30.34:147][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         PrecachePlatformDataForNextPackage: 0.008s (868)
+[2021.04.04-18.30.34:147][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         PrecachePlatformDataForNextNextPackage: 0.480s (834)
+[2021.04.04-18.30.34:147][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         SaveCookedPackage: 2.640s (818)
+[2021.04.04-18.30.34:147][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:           LoadPackage: 0.001s (818)
+[2021.04.04-18.30.34:147][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:           GEditorSavePackage: 2.624s (818)
+[2021.04.04-18.30.34:147][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:             ConvertingBlueprints: 0.005s (818)
+[2021.04.04-18.30.34:147][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:             VerifyCanCookPackage: 0.004s (812)
+[2021.04.04-18.30.34:148][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         ClearAllCachedCookedPlatformData: 0.016s (818)
+[2021.04.04-18.30.34:148][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         EnqueueUnsavedPackages: 0.000s (16)
+[2021.04.04-18.30.34:148][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     FinalizePackageStore: 0.001s (1)
+[2021.04.04-18.30.34:148][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     GeneratingBlueprintAssets: 0.001s (1)
+[2021.04.04-18.30.34:148][355]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     SavingCurrentIniSettings: 0.025s (1)
+[2021.04.04-18.30.34:157][356]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       ProcessingAccessedStrings: 0.003s (1)
+[2021.04.04-18.30.34:157][356]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     SavingAssetRegistry: 0.030s (1)
+[2021.04.04-18.30.34:157][356]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       BuildChunkManifest: 0.009s (1)
+[2021.04.04-18.30.34:157][356]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SaveManifests: 0.002s (1)
+[2021.04.04-18.30.34:157][356]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SaveRealAssetRegistry: 0.017s (1)
+[2021.04.04-18.30.34:157][356]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       WriteCookerOpenOrder: 0.002s (1)
+[2021.04.04-18.30.34:157][356]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Done!
+[2021.04.04-18.30.34:173][358]UATHelper: Packaging (Windows (64-bit)):   LogSavePackage: Display: Took 0.012930s to verify the EDL loading graph.
+[2021.04.04-18.30.34:173][358]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Misc Cook Stats
+[2021.04.04-18.30.34:173][358]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ===============
+[2021.04.04-18.30.34:173][358]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: NiagaraShader.Misc
+[2021.04.04-18.30.34:173][358]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2021.04.04-18.30.34:173][358]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ShaderCompiler
+[2021.04.04-18.30.34:173][358]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     BlockingTimeSec=0.000000
+[2021.04.04-18.30.34:173][358]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     AsyncCompileTimeSec=0.000000
+[2021.04.04-18.30.34:173][358]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     GlobalBeginCompileShaderTimeSec=0.000000
+[2021.04.04-18.30.34:173][358]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     GlobalBeginCompileShaderCalls=0
+[2021.04.04-18.30.34:173][358]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ProcessAsyncResultsTimeSec=0.000245
+[2021.04.04-18.30.34:173][358]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GlobalShader.Misc
+[2021.04.04-18.30.34:173][358]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MeshMaterial.Misc
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MaterialShader.Misc
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.Load
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPackagesLoaded=323
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     LoadPackageTimeSec=2.141136
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.Save
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPackagesSaved=818
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavePackageTimeSec=2.487959
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsPresaveTimeSec=0.786996
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsTimeSec=0.233305
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     FullyLoadLoadersTimeSec=0.000318
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ResetLoadersTimeSec=0.001944
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithOuter=0.004997
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithMarks=0.000884
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeImportsTimeSec=0.000000
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SortExportsSeekfreeInnerTimeSec=0.389557
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeExportsTimeSec=0.408795
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeBulkDataTimeSec=0.211967
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     AsyncWriteTimeSec=0.000000
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     MBWritten=888.425448
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.DifferentPackagesSizeMBPerAsset
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.NumberOfDifferencesInPackagesPerAsset
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.PackageDifferencesSizeMBPerAsset
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.DiffTotal
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumberOfDifferentPackages=0
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     DifferentPackagesSizeMB=0.000000
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumberOfDifferencesInPackages=0
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     PackageDifferencesSizeMB=0.000000
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: UnversionedProperties
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavedStructs=0
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavedMB=0
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     EquivalentTaggedMB=0
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     CompressionRatio=-nan(ind)
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     BitfieldWasteKB=0
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Cook Profile
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ============
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0.CookWallTimeSec=10.512593
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 0.StartupWallTimeSec=3.736133
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1.CookByTheBookTimeSec=6.774664
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 0.StartCookByTheBookTimeSec=1.501982
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 0. 0.GameCookModificationDelegateTimeSec=0.000023
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1.TickCookOnTheSideTimeSec=5.239986
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 0.TickCookOnTheSideLoadPackagesTimeSec=1.869569
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 1.TickCookOnTheSideSaveCookedPackageTimeSec=2.640404
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+[2021.04.04-18.30.34:182][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 2.TickCookOnTheSideBeginPackageCacheForCookedPlatformDataTimeSec=0.578411
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 3.TickCookOnTheSideFinishPackageCacheForCookedPlatformDataTimeSec=0.031858
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 2.TickLoopGCTimeSec=0.000000
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 3.TickLoopRecompileShaderRequestsTimeSec=0.000024
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 4.TickLoopShaderProcessAsyncResultsTimeSec=0.000025
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 5.TickLoopProcessDeferredCommandsTimeSec=0.000133
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 6.TickLoopTickCommandletStatsTimeSec=0.000024
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DDC Summary Stats
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: =================
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGetHits    =      4892
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGets       =      4892
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGetHitPct  =  1.000000
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: LocalGetHitPct  =  0.699509
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: SharedGetHitPct =  0.000000
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: OtherGetHitPct  =  0.300491
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GetMissPct      =  0.000000
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPutHits    =         0
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPuts       =         0
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPutHitPct  =  0.000000
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: PutMissPct      =  0.000000
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DDC Resource Stats
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: =======================================================================================================
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Texture (Streaming)                             1.99                   0.00             0        661.66
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MaterialShader                                  0.40                   0.40             0         11.86
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: PhysX (BodySetup)                               0.18                   0.18             0         14.66
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: SkeletalMesh                                    0.08                   0.08             0         16.98
+[2021.04.04-18.30.34:183][359]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: StaticMesh                                      0.07                   0.07             0         18.89
+[2021.04.04-18.30.34:189][360]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Texture (Inline)                                0.07                   0.07             0         83.09
+[2021.04.04-18.30.34:189][360]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: LandscapeCollision (Heightfield)                0.03                   0.03             0          2.03
+[2021.04.04-18.30.34:189][360]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GlobalShader                                    0.01                   0.01             0          6.32
+[2021.04.04-18.30.34:189][360]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: NavCollision                                    0.01                   0.01             0          4.34
+[2021.04.04-18.30.34:189][360]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: SoundWave                                       0.00                   0.00             0          5.09
+[2021.04.04-18.30.34:189][360]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DistanceField                                   0.00                   0.00             0          0.00
+[2021.04.04-18.30.34:189][360]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2021.04.04-18.30.34:189][360]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Warning/Error Summary (Unique only)
+[2021.04.04-18.30.34:189][360]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: -----------------------------------
+[2021.04.04-18.30.34:189][360]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: CookResults: Warning: Unable to find package for cooking /Game/Models/Whitebox01_ExportedModel
+[2021.04.04-18.30.34:189][360]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogCook: Warning: Unable to find package for cooking /Game/Models/Whitebox01_ExportedModel
+[2021.04.04-18.30.34:189][360]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Materials/Ammunition/M_762x39_Empty': Can't find file.
+[2021.04.04-18.30.34:189][360]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Materials/AR4/M_AR4': Can't find file.
+[2021.04.04-18.30.34:189][360]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Physics': Can't find file.
+[2021.04.04-18.30.34:189][360]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: While loading 'D:/project_radium_repo/project_radium/Content/Meshes/SK_AR4.uasset' failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Skeleton': Can't find file.
+[2021.04.04-18.30.34:189][360]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2021.04.04-18.30.34:189][360]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Success - 0 error(s), 26 warning(s)
+[2021.04.04-18.30.34:189][360]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2021.04.04-18.30.34:189][360]UATHelper: Packaging (Windows (64-bit)):   
+[2021.04.04-18.30.34:189][360]UATHelper: Packaging (Windows (64-bit)):   Execution of commandlet took:  6.79 seconds
+[2021.04.04-18.30.34:715][423]UATHelper: Packaging (Windows (64-bit)):   LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.04.04-18.30.36:088][587]UATHelper: Packaging (Windows (64-bit)): Took 12.569201s to run UE4Editor-Cmd.exe, ExitCode=0
+[2021.04.04-18.30.36:096][588]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND COMPLETED **********
+[2021.04.04-18.30.36:096][588]UATHelper: Packaging (Windows (64-bit)): ********** STAGE COMMAND STARTED **********
+[2021.04.04-18.30.36:162][596]UATHelper: Packaging (Windows (64-bit)): Creating Staging Manifest...
+[2021.04.04-18.30.36:187][599]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Config\BaseEditor.ini
+[2021.04.04-18.30.36:187][599]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Config\BaseEditorKeyBindings.ini
+[2021.04.04-18.30.36:187][599]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Config\BaseEditorPerProjectUserSettings.ini
+[2021.04.04-18.30.36:187][599]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Config\BaseEditorSettings.ini
+[2021.04.04-18.30.36:187][599]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Config\BaseLightmass.ini
+[2021.04.04-18.30.36:187][599]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Config\BasePakFileRules.ini
+[2021.04.04-18.30.36:187][599]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Config\Localization\Category.ini
+[2021.04.04-18.30.36:187][599]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Config\Localization\Editor.ini
+[2021.04.04-18.30.36:188][599]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Config\Localization\EditorTutorials.ini
+[2021.04.04-18.30.36:188][599]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Config\Localization\Engine.ini
+[2021.04.04-18.30.36:188][599]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Config\Localization\Keywords.ini
+[2021.04.04-18.30.36:188][599]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Config\Localization\PortableObjectExport.ini
+[2021.04.04-18.30.36:188][599]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Config\Localization\PortableObjectImport.ini
+[2021.04.04-18.30.36:188][599]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Config\Localization\PropertyNames.ini
+[2021.04.04-18.30.36:188][599]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Config\Localization\RepairData.ini
+[2021.04.04-18.30.36:188][599]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Config\Localization\ToolTips.ini
+[2021.04.04-18.30.36:188][599]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Config\Localization\WordCount.ini
+[2021.04.04-18.30.36:188][599]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\project_radium_repo\project_radium\Config\DefaultEditor.ini
+[2021.04.04-18.30.36:188][599]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\project_radium_repo\project_radium\Config\DefaultEditorPerProjectUserSettings.ini
+[2021.04.04-18.30.36:281][610]UATHelper: Packaging (Windows (64-bit)): Cleaning Stage Directory: D:\project_radium_repo\project_radium\Saved\StagedBuilds\WindowsNoEditor
+[2021.04.04-18.30.36:391][623]UATHelper: Packaging (Windows (64-bit)): Creating pak using staging manifest.
+[2021.04.04-18.30.36:489][635]UATHelper: Packaging (Windows (64-bit)): Executing 1 UnrealPak command...
+[2021.04.04-18.30.40:282][ 90]UATHelper: Packaging (Windows (64-bit)): Waiting for child processes to complete (1/1)
+[2021.04.04-18.30.40:282][ 90]UATHelper: Packaging (Windows (64-bit)): Output from: D:\project_radium_repo\project_radium\project_radium.uproject D:\project_radium_repo\project_radium\Saved\StagedBuilds\WindowsNoEditor\project_radium\Content\Paks\project_radium-WindowsNoEditor.pak -create="C:\Users\preet\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+(x86)+Epic+Games+UE_4.25\PakList_project_radium-WindowsNoEditor.txt" -cryptokeys=D:\project_radium_repo\project_radium\Saved\Cooked\WindowsNoEditor\project_radium\Metadata\Crypto.json -order=D:\project_radium_repo\project_radium\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log -patchpaddingalign=2048 -platform=Windows -compressionformats=  -multiprocess -abslog="C:\Users\preet\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+(x86)+Epic+Games+UE_4.25\UnrealPak-project_radium-WindowsNoEditor-2021.04.04-14.30.36.txt"
+[2021.04.04-18.30.40:282][ 90]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Parsing crypto keys from a crypto key cache file
+[2021.04.04-18.30.40:282][ 90]UATHelper: Packaging (Windows (64-bit)):   LogCompression: Display: FCompression::GetCompressionFormat - Unable to find a module or plugin for compression format -multiprocess
+[2021.04.04-18.30.40:282][ 90]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Loading response file C:\Users\preet\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+(x86)+Epic+Games+UE_4.25\PakList_project_radium-WindowsNoEditor.txt
+[2021.04.04-18.30.40:282][ 90]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Added 2924 entries to add to pak file.
+[2021.04.04-18.30.40:282][ 90]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Loading pak order file D:\project_radium_repo\project_radium\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log...
+[2021.04.04-18.30.40:282][ 90]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Finished loading pak order file D:\project_radium_repo\project_radium\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log.
+[2021.04.04-18.30.40:282][ 90]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Collecting files to add to pak file...
+[2021.04.04-18.30.40:282][ 90]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Collected 2924 files in 0.01s.
+[2021.04.04-18.30.40:282][ 90]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Creating pak D:\project_radium_repo\project_radium\Saved\StagedBuilds\WindowsNoEditor\project_radium\Content\Paks\project_radium-WindowsNoEditor.pak.
+[2021.04.04-18.30.40:282][ 90]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.04.04-18.30.40:282][ 90]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: DISABLING pak file index freezing (all must be true: HasPlatformInfo? true - TargetIs64Bit? true - NoRuntimeUnloading? true - Unencrypted? true, 'Windows' != 'Windows')
+[2021.04.04-18.30.40:282][ 90]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Added 2924 files, 958906719 bytes total, time 2.98s.
+[2021.04.04-18.30.40:282][ 90]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Encryption - DISABLED
+[2021.04.04-18.30.40:282][ 90]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Unreal pak executed in 3.057283 seconds
+[2021.04.04-18.30.40:282][ 90]UATHelper: Packaging (Windows (64-bit)): UnrealPak terminated with exit code 0
+[2021.04.04-18.30.40:289][ 91]UATHelper: Packaging (Windows (64-bit)): Copying NonUFSFiles to staging directory: D:\project_radium_repo\project_radium\Saved\StagedBuilds\WindowsNoEditor
+[2021.04.04-18.30.40:398][104]UATHelper: Packaging (Windows (64-bit)): ********** STAGE COMMAND COMPLETED **********
+[2021.04.04-18.30.40:408][105]UATHelper: Packaging (Windows (64-bit)): ********** PACKAGE COMMAND STARTED **********
+[2021.04.04-18.30.40:408][105]UATHelper: Packaging (Windows (64-bit)): ********** PACKAGE COMMAND COMPLETED **********
+[2021.04.04-18.30.40:408][105]UATHelper: Packaging (Windows (64-bit)): ********** ARCHIVE COMMAND STARTED **********
+[2021.04.04-18.30.40:408][105]UATHelper: Packaging (Windows (64-bit)): Archiving to D:/Game Jam Test Build
+[2021.04.04-18.30.41:130][192]UATHelper: Packaging (Windows (64-bit)): ********** ARCHIVE COMMAND COMPLETED **********
+[2021.04.04-18.30.41:131][192]UATHelper: Packaging (Windows (64-bit)): BUILD SUCCESSFUL
+[2021.04.04-18.30.41:139][193]UATHelper: Packaging (Windows (64-bit)): AutomationTool exiting with ExitCode=0 (Success)
