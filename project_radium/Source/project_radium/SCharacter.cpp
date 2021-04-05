@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 #include "SCharacter.h"
 #include "SLantern.h"
+#include "Components/AudioComponent.h"
 #include "WispsPickup.h"
 
 
@@ -23,6 +24,10 @@ ASCharacter::ASCharacter()
 	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &ASCharacter::OnOverlapBegin);
 	Mesh2 = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh 2"));
 	Mesh2->SetupAttachment(RootComponent);
+
+	audioComponent = CreateDefaultSubobject<UAudioComponent>(TEXT("Audio Lantern"));
+	audioComponent->SetupAttachment(RootComponent);
+
 
 	ZoomedFOV = 65.0f;
 	ZoomInterpSpeed = 20.0f;
@@ -55,11 +60,21 @@ void ASCharacter::BeginPlay()
 void ASCharacter::MoveForward(float Value)
 {
 	AddMovementInput(GetActorForwardVector() * Value);
+	if (audioComponent && Movement)
+	{
+		audioComponent->SetSound((USoundBase*)Movement);
+		audioComponent->Play(0.5f);
+	}
 }
 
 void ASCharacter::MoveRight(float Value)
 {
 	AddMovementInput(GetActorRightVector() * Value);
+	if (audioComponent && Movement)
+	{
+		audioComponent->SetSound((USoundBase*)Movement);
+		audioComponent->Play(0.5f);
+	}
 }
 
 
@@ -151,6 +166,16 @@ void ASCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 void ASCharacter::OnPressed()
 {
 	heldDown = true;
+	if (audioComponent && LanternCharge && wispsCount != 0)
+	{
+		audioComponent->SetSound((USoundBase*)LanternCharge);
+		audioComponent->Play(0.5f);
+	}
+	else if(audioComponent)
+	{
+		audioComponent->SetSound((USoundBase*)LanternFailed);
+		audioComponent->Play(0.5f);
+	}
 }
 
 void ASCharacter::SetWispsCount(int wispCount)
@@ -166,7 +191,11 @@ void ASCharacter::OnRelease()
 	{
 		lantern->SetOwner(this);
 		lantern->CastAttack();
-
+		if (audioComponent && LanternFire)
+		{
+			audioComponent->SetSound((USoundBase*)LanternFire);
+			audioComponent->Play(0.5f);
+		}
 
 		if (holdTime < 1)
 		{
