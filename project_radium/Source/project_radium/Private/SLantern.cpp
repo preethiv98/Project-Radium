@@ -17,6 +17,9 @@ ASLantern::ASLantern()
 	RootComponent = MeshComp;
 
 
+	audioComponent = CreateDefaultSubobject<UAudioComponent>(TEXT("Audio Lantern"));
+	audioComponent->SetupAttachment(RootComponent);
+
 	
 
 }
@@ -112,6 +115,18 @@ void ASLantern::CastAttack()
 		{
 			//Blocking hit! Process damage
 			AActor* HitActor = Hit.GetActor();
+			
+			if (MuzzleEffect)
+			{
+				UGameplayStatics::SpawnEmitterAttached(MuzzleEffect, MeshComp,"Muzzle");
+			}
+			
+
+			if (audioComponent && Impact)
+			{
+				audioComponent->SetSound((USoundBase*)Impact);
+				audioComponent->Play(0.5f);
+			}
 
 			MyCharacter = Cast<ASCharacter>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
 

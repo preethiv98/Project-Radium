@@ -60,11 +60,21 @@ void ASCharacter::BeginPlay()
 void ASCharacter::MoveForward(float Value)
 {
 	AddMovementInput(GetActorForwardVector() * Value);
+	if (audioComponent && Movement)
+	{
+		audioComponent->SetSound((USoundBase*)Movement);
+		audioComponent->Play(0.5f);
+	}
 }
 
 void ASCharacter::MoveRight(float Value)
 {
 	AddMovementInput(GetActorRightVector() * Value);
+	if (audioComponent && Movement)
+	{
+		audioComponent->SetSound((USoundBase*)Movement);
+		audioComponent->Play(0.5f);
+	}
 }
 
 
@@ -156,9 +166,14 @@ void ASCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 void ASCharacter::OnPressed()
 {
 	heldDown = true;
-	if (audioComponent && LanternCharge)
+	if (audioComponent && LanternCharge && wispsCount != 0)
 	{
 		audioComponent->SetSound((USoundBase*)LanternCharge);
+		audioComponent->Play(0.5f);
+	}
+	else if(audioComponent)
+	{
+		audioComponent->SetSound((USoundBase*)LanternFailed);
 		audioComponent->Play(0.5f);
 	}
 }
@@ -176,7 +191,11 @@ void ASCharacter::OnRelease()
 	{
 		lantern->SetOwner(this);
 		lantern->CastAttack();
-
+		if (audioComponent && LanternFire)
+		{
+			audioComponent->SetSound((USoundBase*)LanternFire);
+			audioComponent->Play(0.5f);
+		}
 
 		if (holdTime < 1)
 		{

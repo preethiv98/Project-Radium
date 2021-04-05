@@ -44,6 +44,9 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Audio")
 		USoundCue* LanternFailed;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Audio")
+		USoundCue* Movement;
+
 
 protected:
 	// Called when the game starts or when spawned
