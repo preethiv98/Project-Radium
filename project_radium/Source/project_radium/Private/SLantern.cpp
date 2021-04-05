@@ -4,6 +4,7 @@
 #include "SLantern.h"
 #include <Runtime/Engine/Public/DrawDebugHelpers.h>
 #include "Kismet/GameplayStatics.h"
+#include "Components/AudioComponent.h"
 #include "project_radium/SCharacter.h"
 
 // Sets default values
@@ -15,6 +16,11 @@ ASLantern::ASLantern()
 	MeshComp = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("MeshComp"));
 	RootComponent = MeshComp;
 
+
+	audioComponent = CreateDefaultSubobject<UAudioComponent>(TEXT("Audio Lantern"));
+	audioComponent->SetupAttachment(RootComponent);
+
+	
 
 }
 
@@ -66,9 +72,10 @@ void ASLantern::CastAttack()
 			if (MyCharacter->wispsCount >= 1)
 			{
 				TraceEnd = EyeLocation + (EyeRotation.Vector() * 1000);
-				coolDown = 2.0f;
+				coolDown = 4.0f;
+				
 			}
-			
+
 		}
 
 		if (chargeTime >= 1 && chargeTime <= 2)
@@ -76,7 +83,8 @@ void ASLantern::CastAttack()
 			if (MyCharacter->wispsCount >= 2)
 			{
 			TraceEnd = EyeLocation + (EyeRotation.Vector() * 2000);
-			coolDown = 4.0f;
+			coolDown = 6.0f;
+		
 			}
 		}
 
@@ -85,7 +93,8 @@ void ASLantern::CastAttack()
 			if (MyCharacter->wispsCount >= 3)
 			{
 			TraceEnd = EyeLocation + (EyeRotation.Vector() * 3000);
-			coolDown = 6.0f;
+			coolDown = 8.0f;
+			
 			}
 		}
 
@@ -106,6 +115,18 @@ void ASLantern::CastAttack()
 		{
 			//Blocking hit! Process damage
 			AActor* HitActor = Hit.GetActor();
+			
+			if (MuzzleEffect)
+			{
+				UGameplayStatics::SpawnEmitterAttached(MuzzleEffect, MeshComp,"Muzzle");
+			}
+			
+
+			if (audioComponent && Impact)
+			{
+				audioComponent->SetSound((USoundBase*)Impact);
+				audioComponent->Play(0.5f);
+			}
 
 			MyCharacter = Cast<ASCharacter>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
 
